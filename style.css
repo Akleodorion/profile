@@ -1,0 +1,230 @@
+body {
+  background-color: rgb(230, 230, 230);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkslategray;
+  font-size: 1em;
+  line-height: 20px;
+}
+
+h1 {
+  color: darkslategray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: darkslategray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+}
+
+a {
+  color: royalblue;
+}
+
+a:hover {
+  color: rosybrown;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2%;
+
+}
+
+.card-white {
+  margin: 10px auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.logo {
+  font-size: 50px;
+}
+
+#user-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-blue {
+  background-color: papayawhip;
+  font-size: 1.5em;
+  color: royalblue;
+  padding: 5px 10px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+ul{
+  text-align: center;
+}
+
+.para-blue {
+  color: royalblue;
+  font-size: 1.5em;
+}
+
+
+
+@media (max-width: 1101px) {
+  body {
+    background-color: rgb(230, 230, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+
+  h1 {
+    color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10%;
+  }
+
+  a {
+    color: royalblue;
+  }
+
+  a:hover {
+    color: rosybrown;
+  }
+
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 2%;
+  }
+
+  .card-white {
+    margin: 10px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .logo {
+    font-size: 100%;
+  }
+
+  #user-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .btn-blue {
+    background-color: papayawhip;
+    font-size: 1.5em;
+    color: royalblue;
+    padding: 5px 10px;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 45px;
+    font-size: 300%;
+  }
+
+  ul{
+    text-align: center;
+  }
+
+  .para-blue {
+    color: royalblue;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(230, 230, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+
+  h1 {
+    color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10%;
+  }
+
+  a {
+    color: royalblue;
+  }
+
+  a:hover {
+    color: rosybrown;
+  }
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2%;
+  }
+
+  .card-white {
+    margin: 10px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .logo {
+    font-size: 150%;
+  }
+
+  #user-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .btn-blue {
+    background-color: papayawhip;
+    font-size: 1.5em;
+    color: royalblue;
+    padding: 5px 10px;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 45px;
+    font-size: 20px;
+  }
+
+  ul{
+    text-align: center;
+  }
+
+  .para-blue {
+    color: royalblue;
+    font-size: 1.5em;
+  }
+}
